@@ -310,9 +310,8 @@ A diferència de les altres caixes aquestas 2 tenen un contenidor*/
     width: 100%;
     height: 4vh;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-rows: 50% 50%;
 }
 
 .footer .text-footer {
@@ -320,6 +319,7 @@ A diferència de les altres caixes aquestas 2 tenen un contenidor*/
     font-size: 1.2vw;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: lighter;
+    grid-row-start: 2;
 }
 
 /*TAULETA*/
